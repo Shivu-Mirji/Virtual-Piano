@@ -10,7 +10,7 @@
 
 .brand {
   color: #eee;
-  font-family: "Chewy", cursive;
+  font-family: sans-serif;
 }
 
 p {
@@ -75,7 +75,7 @@ a.header {
   background-color: #333;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .key {
     height: calc(var(--width) * 1.8);
     width: calc(var(--width) / 1.4);
